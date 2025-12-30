@@ -1,2 +1,1 @@
-// Domain modules export
-export {};
+export * as weightGoals from './weightGoals/_module';

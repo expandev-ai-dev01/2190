@@ -6,4 +6,7 @@
  * @module constants
  */
 
-
+/**
+ * Weight Goals constants
+ */
+export * from './weightGoals';
