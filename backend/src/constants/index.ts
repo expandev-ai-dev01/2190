@@ -10,3 +10,8 @@
  * Weight Goals constants
  */
 export * from './weightGoals';
+
+/**
+ * User constants
+ */
+export * from './user';

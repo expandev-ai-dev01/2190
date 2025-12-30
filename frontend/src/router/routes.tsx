@@ -9,6 +9,9 @@ const HomePage = lazy(() =>
 const WeightGoalsPage = lazy(() =>
   import('@/pages/WeightGoals').then((module) => ({ default: module.WeightGoalsPage }))
 );
+const RegisterPage = lazy(() =>
+  import('@/pages/Register').then((module) => ({ default: module.RegisterPage }))
+);
 const NotFoundPage = lazy(() =>
   import('@/pages/NotFound').then((module) => ({ default: module.NotFoundPage }))
 );
@@ -35,6 +38,10 @@ const routes = createBrowserRouter([
       {
         path: 'weight-goals',
         element: <WeightGoalsPage />,
+      },
+      {
+        path: 'register',
+        element: <RegisterPage />,
       },
       {
         path: '*',
